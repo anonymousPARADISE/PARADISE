@@ -3,7 +3,7 @@
 This repository is the official implementation of 
 "Accurate and Interpretable Decomposition for Temporal Irregular Tensors with Missing Values" (KDD 2026).
 <p align="center">
-  <img src="https://github.com/anonymousPARADISE/PARADISE/blob/main/docs/overview_.png" width="540"/>
+  <img src="https://github.com/anonymousPARADISE/PARADISE/blob/main/docs/overview_.png"/>
 </p>
 
 
