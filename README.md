@@ -22,6 +22,22 @@ Furthermore, we accelerate row-wise updates via Cholesky decomposition, signific
 As a result, PARADISE achieves up to 10.8% improvement in missing value prediction over existing methods and reduces runtime by 24.7% compared to methods. 
 We also analyze the learned factors through case studies, which demonstrate clear disentanglement of temporal dynamics.
 
+## Code Information
+All codes are written by MATLAB R2025a.
+
+### Library
+We need the following library to run our proposed method.
+Please refer to the following, too.
+ - `Parallel Computing Toolbox`
+ - `Signal Processing Toolbox`
+ - `Statistics and Machine Learning Toolbox`
+ - `Tensor Toolbox v3.0`
+ > * Reference: B. W. Bader, T. G. Kolda et al., “Matlab tensor toolbox version 3.0-dev,” Available online, Oct. 2017. [Online]. Available: <https://www.tensortoolbox.org>
+
+After you download `Tensor Toolbox v3.0`, you should put the directory of `Tensor Toolbox v3.0` in `library` directory.
+Without the Tensor Toolbox library, PARADISE is not run.
+
+
 ## Prerequisites
 Our code requires Tensor Toolbox (available at https://gitlab.com/tensors/tensor_toolbox).
 
