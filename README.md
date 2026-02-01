@@ -42,9 +42,9 @@ You run MATLAB, and type the following commands in MATLAB.
 
 Before you run our proposed method, you should add paths into MATLAB environment. Please type the following command in MATLAB:
 ```
-    run addPaths
+run addPaths
 ```
 Then, type the following command to run the demo:
 ```
-    run demo_real_dense.m
+run main.m
 ```
