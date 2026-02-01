@@ -36,3 +36,15 @@ The datasets are available at [PEMS-SF](https://archive.ics.uci.edu/dataset/204/
 | **METR-LA**  | 119  | 288 | 207 | 6.8M | Traffic |
 | **Electricity**  | 1460  | 96 | 370 | 41.9M | Electricity |
 | **Weather**  | 696  | 7 | 85 | 295.3M | Climate |
+
+## How to Run
+You run MATLAB, and type the following commands in MATLAB.
+
+Before you run our proposed method, you should add paths into MATLAB environment. Please type the following command in MATLAB:
+```
+    run addPaths
+```
+Then, type the following command to run the demo:
+```
+    run demo_real_dense.m
+```
