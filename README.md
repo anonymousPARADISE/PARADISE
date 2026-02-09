@@ -20,7 +20,7 @@ Second, updating the factors row-wise improves accuracy but incurs high computat
 In this paper, we propose PARADISE, an accurate and interpretable decomposition method for temporal irregular tensors with missing data.
 PARADISE explicitly separates the temporal latent factor into trend and seasonal components and enforces their disentanglement through regularization.
 Furthermore, we accelerate row-wise updates via Cholesky decomposition, significantly reducing computational costs.
-As a result, PARADISE achieves up to 19.3\% improvement in missing value prediction over existing methods and reduces runtime by 24.7\% compared to \method without Cholesky decomposition. 
+As a result, PARADISE achieves up to 13.1\% improvement in missing value prediction over existing methods and reduces runtime by 24.7\% compared to \method without Cholesky decomposition. 
 We also analyze the learned factors through case studies, which demonstrate clear disentanglement of temporal dynamics.
 
 
