@@ -39,10 +39,10 @@ end
 
 frequency = dominant_frequency(X_train);
 P_list = cellfun(@(r) r.period, frequency, 'UniformOutput', false);   
-Z = fourier_basis(X_train, P_list, 5, 1);
+Z = fourier_basis(X_train, P_list, 5, 2);
 %% Set hyperparameters
 conv = 0.0001; maxiter = 30;
-R = 10; lambda_u = 0.01; lambda_l = 10; lambda_s = 1; lambda_t = 0.1;
+R = 10; lambda_u = 0.1; lambda_l = 10; lambda_s = 1; lambda_t = 1;
 %% train and evaluate model
 [U, UT, US, S, V, fit_each, times] = PARADISE(X_train, X_valid, Z, R, missing_ind, maxiter, conv, patience, lambda_u, lambda_t, lambda_s, lambda_l);
 NRE_res = NRE(X_test, U, S, V, length(X_test));
