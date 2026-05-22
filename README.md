@@ -1,7 +1,7 @@
 # PARADISE
 
 This repository is the official implementation of 
-"Accurate and Interpretable Decomposition for Temporal Irregular Tensors with Missing Values" (KDD 2026).
+"Accurate and Interpretable Decomposition for Temporal Irregular Tensors with Missing Values" (CIKM 2026).
 <p align="center">
   <img src="https://github.com/anonymousPARADISE/PARADISE/blob/main/Docs/overview_git.png"/>
 </p>
